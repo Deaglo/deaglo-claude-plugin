@@ -52,7 +52,7 @@ All pass: show the TARF. Any fail: withhold it.
 
 ## Hedge comparisons that include a TARF
 
-excel_hedge_compare and excel_hedge_from_book use the same TARF engine. Run the control (Step 3) first, then call excel_hedge_compare in the buyer orientation with the book's open notionals, and convert every rate back to the user's pair (budget = 1 / budget; percentiles invert and swap ends). excel_hedge_from_book cannot be inverted, so use it for a TARF only when the client buys the base currency of the book's pair. If the control fails, leave out the TARF column, show unhedged, forwards and options, and state that the TARF was withheld.
+excel_hedge_compare and excel_hedge_from_book use the same TARF engine. Run the control (Step 3) first, then call excel_hedge_compare in the buyer orientation with the book's open notionals, and convert every rate back to the user's pair (budget = 1 / budget; percentiles invert and swap ends). excel_hedge_from_book cannot be inverted, so use it for a TARF only when the client buys the base currency of the book's pair. If the control fails, leave out the TARF column, show the unhedged case and the forward strip, and state that the TARF was withheld.
 
 ## Worked example (client sells USD 500,000 a month for MXN, 6 months)
 
