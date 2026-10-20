@@ -1,0 +1,6 @@
+{
+  "deaglo-ai": {
+    "type": "http",
+    "url": "https://api.deaglo.com/mcp"
+  }
+}

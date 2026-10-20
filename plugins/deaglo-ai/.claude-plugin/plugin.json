@@ -1,0 +1,25 @@
+{
+  "name": "deaglo-ai",
+  "displayName": "Deaglo AI",
+  "version": "1.0.0",
+  "description": "FX analysis for a Deaglo account. Indicative rates, forwards, and hedge comparisons. Deaglo AI does not execute trades.",
+  "author": {
+    "name": "Deaglo Technologies Inc.",
+    "email": "team@deaglo.com",
+    "url": "https://www.deaglo.com"
+  },
+  "homepage": "https://www.deaglo.com",
+  "repository": "https://github.com/Deaglo/deaglo-claude-plugin",
+  "license": "LicenseRef-Deaglo-Plugin",
+  "keywords": [
+    "fx",
+    "currency",
+    "hedging",
+    "deaglo"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.deaglo.com/privacy-policy",
+  "termsOfServiceUrl": "https://www.deaglo.com/terms-of-use",
+  "supportUrl": "mailto:team@deaglo.com",
+  "documentationUrl": "https://github.com/Deaglo/deaglo-claude-plugin"
+}

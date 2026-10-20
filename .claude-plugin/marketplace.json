@@ -1,0 +1,32 @@
+{
+  "name": "deaglo",
+  "owner": {
+    "name": "Deaglo Technologies Inc.",
+    "email": "team@deaglo.com"
+  },
+  "metadata": {
+    "description": "Deaglo plugins: FX analysis for a Deaglo account.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "deaglo-ai",
+      "source": "./plugins/deaglo-ai",
+      "description": "FX analysis for a Deaglo account. Indicative rates, forwards, and hedge comparisons. Deaglo AI does not execute trades.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Deaglo Technologies Inc.",
+        "email": "team@deaglo.com",
+        "url": "https://www.deaglo.com"
+      },
+      "homepage": "https://www.deaglo.com",
+      "category": "finance",
+      "keywords": [
+        "fx",
+        "currency",
+        "hedging",
+        "deaglo"
+      ]
+    }
+  ]
+}
