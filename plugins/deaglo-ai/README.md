@@ -1,10 +1,10 @@
 # Deaglo AI
 
-Deaglo AI connects Claude to a Deaglo account for foreign-exchange analysis. It returns indicative rates, forward curves, and hedge comparisons for the account you sign in with. Deaglo AI does not execute trades, and a result is not a quote.
+Deaglo AI connects a session to a Deaglo account for foreign-exchange analysis. It returns indicative rates, forward curves, and hedge comparisons. It does not execute trades, and a result is not a quote.
 
 ## Account
 
-You need a Deaglo account. Claude signs in with OAuth at platform.deaglo.com. This package does not contain an API key or a password.
+You need a Deaglo account. Sign-in is the Deaglo page at platform.deaglo.com. The package has no API key.
 
 Spot tools are available at CLIENT_VIEW. Forwards, volatility, cash flows, and hedge comparisons need PROVIDER or above. If a tool is refused, say so instead of filling in the missing number.
 

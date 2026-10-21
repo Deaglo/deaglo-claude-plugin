@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Deaglo plugins: FX analysis for a Deaglo account.",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "plugins": [
     {
       "name": "deaglo-ai",
       "source": "./plugins/deaglo-ai",
       "description": "FX analysis for a Deaglo account. Indicative rates, forwards, and hedge comparisons. Deaglo AI does not execute trades.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Deaglo Technologies Inc.",
         "email": "team@deaglo.com",
